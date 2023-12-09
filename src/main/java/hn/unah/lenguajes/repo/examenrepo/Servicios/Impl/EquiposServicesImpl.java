@@ -3,11 +3,12 @@ package hn.unah.lenguajes.repo.examenrepo.Servicios.Impl;
 import java.util.NoSuchElementException;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import hn.unah.lenguajes.repo.examenrepo.Modelos.Equipos;
 import hn.unah.lenguajes.repo.examenrepo.Repositorios.EquiposRepositorio;
 import hn.unah.lenguajes.repo.examenrepo.Servicios.EquiposService;
-
+@Service
 public class EquiposServicesImpl implements EquiposService{
 
     @Autowired
