@@ -21,7 +21,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Posiciones {
-
+//LE TUVE QUE AGREGAR ID SINO NNO DEJABA HACER LA CONEXION CON LA BD
     @Id
     @Column(name = "idPosiciones")
     private Integer idPosiciones;
